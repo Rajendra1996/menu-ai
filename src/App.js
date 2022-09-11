@@ -24,7 +24,7 @@ const App = () => {
   useEffect(() => {
     alanBtn({
       key:
-        "e3a32cd64395a643bd3a03cee62943562e956eca572e1d8b807a3e2338fdd0dc/stage",
+        "b5adf7eb5d9d8b83e36b9c44ce40857c2e956eca572e1d8b807a3e2338fdd0dc/testing",
       onCommand: (commandData) => {
         if (commandData.command === "getMenu") {
           setProducts(commandData.data)
